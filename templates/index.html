@@ -1,0 +1,370 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<body>
+    <header>
+        <div class="logo"><span>S</span>iva</div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!--<li><a href="#services">Services</a></li>-->
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class='bx bx-menu'></div>
+    </header>
+<!--home section-->
+<section id="home" class="home">
+    <div class="home-content scroll-scale">
+        <h1>Hi! I'm Siva Prasad
+        </h1>
+        <div class="change-text">
+            <h3>And I'm</h3>
+            <h3>
+                <span class="word">Web&nbsp;Designer</span>
+                <span class="word">Frontend&nbsp;Developer</span>
+
+                <span class="word">Backend&nbsp;Developer</span>
+
+                <span class="word">Mobile&nbsp;Application &nbsp;Developer</span>
+
+            </h3>
+        </div>
+        
+    <p>I am a passionate web developer with expertise in building dynamic and responsive web applications. I specialize in Python and Django for backend development and HTML,CSS,Java Scripts for frontend applications. My goal is to create user-friendly, efficient, and scalable web solutions that enhance digital experiences.</p>
+<div class="info-box">
+    <div class="email-info">
+        <h5>Email:</h5>
+        <span>sivaprasadkandena@gmail.com</span>
+    </div>
+    <div class="behance-info">
+        <h5>Phone:</h5>
+        <span>6302718928</span>
+    </div>
+</div>    
+<div class="btn-box">
+    <a href="https://friendlysiva143.github.io/Resume/" class="btn">Download CV</a>
+    <a href="#contact" class="btn">Hire Me Now</a>
+</div>
+<div class="social-icons">
+    <a href="https://www.facebook.com/people/Siva-Prasad/pfbid02a5Uov1WHBrjQNveuJfvAFSWe869PeYXaAb6G3sJ1vAEd2kt4rLeAknqvaLZ51jXHl/?ref=ig_profile_ac"><i class='bx bxl-facebook'></i></a>
+    <a href="https://www.instagram.com/friendly_siva___420/?__pwa=1#"><i class='bx bxl-instagram' ></i></a>
+    <a href="#"><i class='bx bxl-twitter' ></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+</div>
+</div>
+<div class="home-image">
+    <div class="img-box">
+        <img src="{% static 'img/siva_img.png' %}" alt="">
+    </div>
+    <div class="liquid-shape">
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <path  fill="#12f7ff">
+                <animate attributeName="d"
+                dur="10000ms"
+                repeatCount="indefinite"
+                values="
+                M390.5,319Q329,388,230,422Q131,456,101.5,353Q72,250,99,143Q126,36,227,75.5Q328,115,390,182.5Q452,250,390.5,319Z;
+                M366.5,291Q347,332,317,397Q287,462,222,436.5Q157,411,111,364Q65,317,117.5,269Q170,221,163,154Q156,87,210.5,125.5Q265,164,288,181Q311,198,348.5,224Q386,250,366.5,291Z;
+                M410.5,289.5Q415,329,382.5,352Q350,375,320,400Q290,425,254.5,405.5Q219,386,167,403Q115,420,92.5,378.5Q70,337,57,293.5Q44,250,71,213.5Q98,177,126,153.5Q154,130,183.5,110Q213,90,255.5,66Q298,42,333.5,71.5Q369,101,410,127Q451,153,428.5,201.5Q406,250,410.5,289.5Z;
+                M378,353.5Q369,457,274,415Q179,373,101,311.5Q23,250,89,168Q155,86,243.5,96.5Q332,107,359.5,178.5Q387,250,378,353.5Z;
+                M418.5,321.5Q447,393,379.5,417Q312,441,260,410Q208,379,135.5,382.5Q63,386,75,318Q87,250,117.5,213Q148,176,161.5,97.5Q175,19,243,41Q311,63,345.5,109.5Q380,156,385,203Q390,250,418.5,321.5Z;
+                M390.5,319Q329,388,230,422Q131,456,101.5,353Q72,250,99,143Q126,36,227,75.5Q328,115,390,182.5Q452,250,390.5,319Z;
+                "
+               ></animate> 
+            </path>
+          </svg>
+    </div>
+    <div class="liquid-shape">
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <path  fill="#12f7ff">
+                <animate attributeName="d"
+                dur="10000ms"
+                repeatCount="indefinite"
+                values="
+                M390.5,319Q329,388,230,422Q131,456,101.5,353Q72,250,99,143Q126,36,227,75.5Q328,115,390,182.5Q452,250,390.5,319Z;
+                M366.5,291Q347,332,317,397Q287,462,222,436.5Q157,411,111,364Q65,317,117.5,269Q170,221,163,154Q156,87,210.5,125.5Q265,164,288,181Q311,198,348.5,224Q386,250,366.5,291Z;
+                M410.5,289.5Q415,329,382.5,352Q350,375,320,400Q290,425,254.5,405.5Q219,386,167,403Q115,420,92.5,378.5Q70,337,57,293.5Q44,250,71,213.5Q98,177,126,153.5Q154,130,183.5,110Q213,90,255.5,66Q298,42,333.5,71.5Q369,101,410,127Q451,153,428.5,201.5Q406,250,410.5,289.5Z;
+                M378,353.5Q369,457,274,415Q179,373,101,311.5Q23,250,89,168Q155,86,243.5,96.5Q332,107,359.5,178.5Q387,250,378,353.5Z;
+                M418.5,321.5Q447,393,379.5,417Q312,441,260,410Q208,379,135.5,382.5Q63,386,75,318Q87,250,117.5,213Q148,176,161.5,97.5Q175,19,243,41Q311,63,345.5,109.5Q380,156,385,203Q390,250,418.5,321.5Z;
+                M390.5,319Q329,388,230,422Q131,456,101.5,353Q72,250,99,143Q126,36,227,75.5Q328,115,390,182.5Q452,250,390.5,319Z;
+                "
+               ></animate> 
+            </path>
+          </svg>
+    </div>
+</div>
+</section>
+<section class="about" id="about">
+    <div class="img-about">
+        <img src="{% static 'img/siva3.png' %}" alt="">
+        <div class="info-about1">
+            <span>0</span>
+            <p>Years of Experience</p>
+        </div>
+        <div class="info-about2">
+            <span>3</span>
+            <p>Project Completed</p>
+        </div>
+        <div class="info-about3">
+            <span>3 years </span>
+            <p>of development</p>
+        </div>
+    </div>
+    <div class="about-content scroll-scale">
+        <span>
+            Let me introduce myself
+        </span>
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Siva Prasad, a passionate Web Developer with expertise in Python, Django, HTML,css, javascript and postgesql. I love building web and mobile applications that solve real-world problems. Currently, I'm exploring Mobile Applications development and its applications in ai powered smart travel planner.
+        </p>
+        <div class="btn-box">
+            <a href="#" class="btn" >Read More</a>
+        </div>
+    </div>
+</section>
+<section id="education" class="education">
+    <div class="main-text scroll-scale">
+        <span>About My</span>
+        <h2>Education</h2>
+    </div>
+    <div class="education_container scroll-scale">
+        <div class="edu_box">
+            <div class="edu_img">
+                <img src="{% static 'img/ssc_img.jpeg' %}" >
+            </div>
+            <div class="edu_content">
+                <h3>&#127979;Secondary Education(10th Grade)</h3>
+                <p><strong> Sai Nikethan High School ,Garugubilli,Manyam.</strong>
+                "|2019"</p>
+                <p>"Completed foundational education with a focus on core subjects, developing a strong academic base."</p>
+                <a href="https://maps.app.goo.gl/rRepeFrV8Fh2Rhdb6"><i class='bx bxs-map' ></i>Mainroad, Garugubilli, Vizianagaram - 535463 (Opposite ZHPS School)</P></a>
+                <a href="tel:0566-2356"><i class='bx bxs-phone' ></i>Phone:0566-2356</a>
+                <a href="#"><i class='bx bx-link-external'></i>Know More</a>
+            </div>
+            
+
+        </div>
+        <div class="edu_box">
+            <div class="edu_img">
+                <img src="{% static 'img/inter_img.jpeg' %}" >
+            </div>
+            
+            <div class="edu_content">
+                <h3> &#128216;Intermediate (MPC)</h3>
+                <p><strong>Narayana Junior College,paradesipalem,Visakhapatnam</strong>"|2019-2021"</p>
+                <p>Focused on Mathematics, Physics, and Chemistry, strengthening analytical and  Problem solving skills.</p>
+                <a href="https://maps.app.goo.gl/wo7XqpNA9ChKQdBw7"><i class='bx bxs-map' ></i>ParadesiPalem Road, Visakhapatnam - 531163 (Opposite Mahindra Audi Showroom)</P></a>
+                <a href="tel:0566-2356"><i class='bx bxs-phone' ></i>04067-438752</a>
+                <a href="#"><i class='bx bx-link-external'></i>Know More</a>
+            </div>
+            
+
+        </div>
+        <div class="edu_box">
+            <div class="edu_img">
+                <img src="{% static 'img/btech_img.jpeg' %}" >
+            </div>
+            <div class="edu_content">
+                <h3>&#127891;B.tech in Information Technolgy</h3>
+                <p><strong>Bapatla Engineering College (Autonomous)</strong>"|2021-2025"</p>
+                <p>Specialized in Full Stack Development with expertise in modern web technologies.</p>
+                <a href="https://maps.app.goo.gl/ALuQby5aVxhT44GN9"><i class='bx bxs-map' ></i>GBC Rd, Mahatmajipuram, Bapatla, Andhra Pradesh 522102</P></a>
+                <a href="tel:08643223200"><i class='bx bxs-phone' ></i>08643223200</a>
+                <a href="http://becbapatla.ac.in/"><i class='bx bx-link-external'></i>Know More</a>
+            </div>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+</section>
+
+<section class="skills" id="skills">
+<div class="main-text scroll-scale">
+    <span>Technical and Professional</span>
+    <h2>My Skills</h2>
+    </div>
+    <div class="skill-main ">
+    <div class="skill-left scroll-scale">
+        <h3>Technical Skills</h3>
+        <div class="skill-bar">
+            <div class="info">
+                <p>HTML</p>
+                <p>70%</p>
+            </div>
+            <div class="bar">
+                <span class="html"></span>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>CSS</p>
+                <p>65%</p>
+            </div>
+            <div class="bar">
+                <span class="css"></span>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>Java script</p>
+                <p>60%</p>
+            </div>
+            <div class="bar">
+                <span class="javascript"></span>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>Python</p>
+                <p>75%</p>
+            </div>
+            <div class="bar">
+                <span class="python"></span>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p>SQL</p>
+                <p>75%</p>
+            </div>
+            <div class="bar">
+                <span class="sql"></span>
+            </div>
+        </div>
+    </div>
+    <div class="skill-right scroll-scale">
+        <h3>Professional Skills</h3>
+
+    <div class="professional">
+        <div class="box">
+            <div class="circle" data-points="43" data-percent="86" ></div>
+            <div class="text">
+                <big>86%</big>
+                <small>Team Work</small>
+            </div>
+        </div>
+    <div class="box">
+        <div class="circle" data-points="40" data-percent="80" ></div>
+        <div class="text">
+            <big>80%</big>
+            <small>Communication</small>
+        </div>
+    </div>
+    <div class="box">
+        <div class="circle" data-points="39" data-percent="78" ></div>
+        <div class="text">
+            <big>78%</big>
+            <small>Problem Solving</small>
+        </div>
+    </div>
+    <div class="box">
+        <div class="circle" data-points="38" data-percent="76" ></div>
+        <div class="text">
+            <big>76%</big>
+            <small>Time Management & Organization</small>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<section id="portfolio" class="portfolio">
+    <div class="main-text scroll-scale">
+        <span>What i will do</span>
+        <h2>Latest Projects And Ongoing Projects</h2>
+    </div>
+    <div class="container scroll-scale">
+        <div class="filter-button">
+            <button class="btn">ALL</button>
+            <button class="btn">Web app</button>
+            <button class="btn">mobile App</button>
+
+        </div>
+        <div class="portfolio-gallary">
+            <div class="port-box">
+                <div class="port-image">
+                    <img src="{% static 'img/img1.jpeg' %}">
+                </div>
+                <div class="port-content">
+                    <h3>web app</h3>
+                    <p>Developed a dynamic travel web application with interactive maps, real-time weather updates, and personalized itinerary planning.
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        <div class="port-box">
+            <div class="port-image">
+                <img src="{% static 'img/img2.jpeg' %}">
+            </div>
+            <div class="port-content">
+                <h3>mobile app</h3>
+                <p>Built an AI-powered smart travel app that provides personalized trip recommendations, real-time insights, and seamless itinerary planning.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+            
+
+        </div>
+
+    <div class="port-box">
+        <div class="port-image">
+            <img src="{% static 'img/img1.jpeg' %}">
+        </div>
+        <div class="port-content">
+            <h3>Data Science Using Python</h3>
+            <p>Deposit Term Investment Analysis .Developed a predictive model to analyse customer investment behaviour.
+                
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+        
+
+    </div>
+</div>
+    </div>
+</section>
+<!-- contact section-->
+<section id="contact" class="contact">
+<div class="main-text scroll-scale">
+    <span>ask me anything</span>
+    <h3>Contact Me</h3>
+    {% for message in messages %}
+    {% if "success" in message.tags %}
+        <p style="color: green;">{{ message }}</p>
+    {% else %}
+        <p style="color: red;">{{ message }}</p>
+    {% endif %}
+{% endfor %}
+
+</div>
+<form id="contactForm"  class="scroll-scale" method="POST" onsubmit="submitForm(event)">
+    {% csrf_token %}
+    <input type="text" placeholder="Your Name" id="name" name="name" >
+    <input type="email" placeholder="Your email"  id="email" name="email">
+    <input type="text" placeholder="Your Address" id="address" name="address">
+    <input type="number" placeholder="phone number" id="phone"  name="phone">
+    <textarea  id="description" cols="30" rows="10" placeholder="ypur message" name="description"></textarea>
+    <div class="btn-box formbtn">
+        <button type="submit" class="btn">send message</button>
+    </div>
+
+</form>
+<p id="alert-message" style="display: none;"></p>
+
+
+</section>
+
+<!--foeter website  -->
+<footer>
+    <p class="scroll-scale">
+        copyright &copy; 2025 by siva Prasad \\ All Right Reserved
+    </p>
+    <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+</footer>
+</body>
+{% endblock %}
