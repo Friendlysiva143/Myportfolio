@@ -12,7 +12,7 @@ def contact_form(request):
 
         # Validate required fields
         if not all([name, email, phone, address, description]):
-            messages.error(request, "All fields are required!")
+            messages.error(request, "Please Fill The Fields!!")
             return redirect("contact_form")  # Reload the page with an error message
 
         # Send email
