@@ -476,23 +476,23 @@ animation: morph 6s linear infinite;
 }
 
 .skill-bar .bar .html{
-    width: 70%;
+    width: 100%;
     animation: html 2s;
 }
 .skill-bar .bar .css{
-    width: 65%;
+    width: 100%;
     animation: css 3s;
 }
 .skill-bar .bar .javascript{
-    width: 60%;
+    width: 100%;
     animation: javascript 4s;
 }
 .skill-bar .bar .python{
-    width: 75%;
+    width: 100%;
     animation: python 5s;
 }
 .skill-bar .bar .sql{
-    width: 75%;
+    width: 100%;
     animation: sql 6s;
 }
 .skill-bar .bar .numpy{
