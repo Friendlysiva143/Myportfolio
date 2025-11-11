@@ -495,6 +495,14 @@ animation: morph 6s linear infinite;
     width: 75%;
     animation: sql 6s;
 }
+.skill-bar .bar .numpy{
+    width: 100%;
+    animation: numpy 6s;
+}
+.skill-bar .bar .data_science{
+    width: 100%;
+    animation: data_science 6s;
+}
 
 .professional{
     display: grid;
